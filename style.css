@@ -425,6 +425,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   font-weight: 600;
   margin-bottom: 16px;
 }
+.testimonial-stars { color: var(--accent-2); letter-spacing: 2px; font-size: 0.95rem; margin: 0 0 12px; }
 .testimonial-quote { color: var(--ink); font-style: italic; margin-bottom: 18px; }
 .testimonial-meta { display: flex; flex-direction: column; gap: 2px; }
 .testimonial-name { font-weight: 600; color: var(--ink); }
