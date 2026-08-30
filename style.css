@@ -192,15 +192,16 @@ ul { margin: 0; padding: 0; list-style: none; }
 .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 
-
 /* Intro video (responsive 16:9 embed) */
 .intro-video { padding: 56px 0; }
 .video-embed {
   position: relative;
+  display: block;
   width: 100%;
-  max-width: 800px;
+  max-width: 760px;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 ratio */
   margin: 32px auto 0;
-  aspect-ratio: 16 / 9;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow-card);
@@ -211,6 +212,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   width: 100%;
   height: 100%;
   border: 0;
+  display: block;
 }
 
 
