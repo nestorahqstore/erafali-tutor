@@ -52,7 +52,7 @@ Search the project for `917017723136` (found in `index.html` in the nav button, 
 The pre-filled message text sits right after `?text=` in each link — edit the URL-encoded text if you want to change the wording.
 
 ### Preply profile URL
-Search `index.html` for `https://preply.com/en/tutor/8100876` and replace every occurrence with your Preply profile link.
+Search `index.html` for `https://preply.com/en/tutor/8498526` and replace every occurrence with your Preply profile link.
 
 ### YouTube channel URL
 Search `index.html` for `https://www.youtube.com/channel/UCl8zbj46ng4LZFF8iQOPYBQ` and replace every occurrence with your channel link.
